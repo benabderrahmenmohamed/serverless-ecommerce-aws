@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Lambda build artifacts
+build/
+dist/
+*.zip
+
+# AWS credentials and local config
+.env
+.env.*
+.aws/
+*.pem
+
+# Node (frontend)
+node_modules/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
